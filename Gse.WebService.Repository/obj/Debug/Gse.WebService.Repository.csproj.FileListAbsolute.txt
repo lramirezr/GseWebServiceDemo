@@ -1,0 +1,12 @@
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\bin\Debug\Gse.WebService.Repository.dll.config
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\bin\Debug\Gse.WebService.Repository.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\bin\Debug\Gse.WebService.Repository.pdb
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\bin\Debug\EntityFramework.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\bin\Debug\Gse.WebService.Data.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\bin\Debug\Gse.WebService.Data.pdb
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\bin\Debug\EntityFramework.xml
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\obj\Debug\Gse.WebService.Repository.csprojResolveAssemblyReference.cache
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\obj\Debug\Gse.WebService.Repository.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\obj\Debug\Gse.WebService.Repository.pdb

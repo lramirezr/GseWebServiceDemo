@@ -1,0 +1,5 @@
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Entities\obj\Debug\Gse.WebService.Entities.csprojResolveAssemblyReference.cache
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Entities\bin\Debug\Gse.WebService.Entities.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Entities\bin\Debug\Gse.WebService.Entities.pdb
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Entities\obj\Debug\Gse.WebService.Entities.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Entities\obj\Debug\Gse.WebService.Entities.pdb

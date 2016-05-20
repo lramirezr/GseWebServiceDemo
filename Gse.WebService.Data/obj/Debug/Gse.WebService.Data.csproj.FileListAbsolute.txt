@@ -1,0 +1,10 @@
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Data\bin\Debug\Gse.WebService.Data.dll.config
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Data\bin\Debug\Gse.WebService.Data.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Data\bin\Debug\Gse.WebService.Data.pdb
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Data\bin\Debug\EntityFramework.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Data\bin\Debug\EntityFramework.xml
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Data\obj\Debug\Gse.WebService.Data.dll
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Data\obj\Debug\Gse.WebService.Data.pdb
+c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Data\obj\Debug\Gse.WebService.Data.csprojResolveAssemblyReference.cache
