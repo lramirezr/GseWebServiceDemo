@@ -10,15 +10,3 @@ c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebS
 c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\obj\Debug\Gse.WebService.Repository.csprojResolveAssemblyReference.cache
 c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\obj\Debug\Gse.WebService.Repository.dll
 c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Repository\obj\Debug\Gse.WebService.Repository.pdb
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\bin\Debug\Gse.WebService.Repository.dll.config
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\bin\Debug\Gse.WebService.Repository.dll
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\bin\Debug\Gse.WebService.Repository.pdb
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\bin\Debug\EntityFramework.dll
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\bin\Debug\Gse.WebService.Data.dll
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\bin\Debug\Gse.WebService.Data.pdb
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\bin\Debug\EntityFramework.xml
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\obj\Debug\Gse.WebService.Repository.csprojResolveAssemblyReference.cache
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\obj\Debug\Gse.WebService.Repository.dll
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Repository\obj\Debug\Gse.WebService.Repository.pdb
