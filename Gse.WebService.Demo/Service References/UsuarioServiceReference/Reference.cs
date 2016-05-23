@@ -26,6 +26,12 @@ namespace Gse.WebService.Demo.UsuarioServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuariosService/GetUsuario", ReplyAction="http://tempuri.org/IUsuariosService/GetUsuarioResponse")]
         System.Threading.Tasks.Task<Gse.WebService.Entities.Usuario> GetUsuarioAsync(System.Guid Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuariosService/AddUsuario", ReplyAction="http://tempuri.org/IUsuariosService/AddUsuarioResponse")]
+        void AddUsuario(Gse.WebService.Entities.Usuario usuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuariosService/AddUsuario", ReplyAction="http://tempuri.org/IUsuariosService/AddUsuarioResponse")]
+        System.Threading.Tasks.Task AddUsuarioAsync(Gse.WebService.Entities.Usuario usuario);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -69,6 +75,14 @@ namespace Gse.WebService.Demo.UsuarioServiceReference {
         
         public System.Threading.Tasks.Task<Gse.WebService.Entities.Usuario> GetUsuarioAsync(System.Guid Id) {
             return base.Channel.GetUsuarioAsync(Id);
+        }
+        
+        public void AddUsuario(Gse.WebService.Entities.Usuario usuario) {
+            base.Channel.AddUsuario(usuario);
+        }
+        
+        public System.Threading.Tasks.Task AddUsuarioAsync(Gse.WebService.Entities.Usuario usuario) {
+            return base.Channel.AddUsuarioAsync(usuario);
         }
     }
 }

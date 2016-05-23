@@ -15,5 +15,8 @@ namespace Gse.Usuarios.ServicioWeb
 
         [OperationContract]
         Usuario GetUsuario(Guid Id);
+
+        [OperationContract]
+        void AddUsuario(Usuario usuario);
     }
 }

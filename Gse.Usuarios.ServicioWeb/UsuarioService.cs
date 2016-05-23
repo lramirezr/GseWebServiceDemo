@@ -35,11 +35,18 @@ namespace Gse.Usuarios.ServicioWeb
         public IList<WebService.Entities.Usuario> GetAllUsuario()
         {
             IList<WebService.Entities.Usuario> lstResult = (from u in _usuarioRepository.GetAll()
+                                                            orderby u.FechaAlta descending
                                                             select new WebService.Entities.Usuario
                                                             {
                                                                 Id = u.Id,
                                                                 Nombre = u.Nombre,
                                                                 NombreUsuario = u.NombreUsuario,
+                                                                Apellidos = u.Apellidos,
+                                                                FechaNacimiento = u.FechaNacimiento,
+                                                                FechaAlta = u.FechaAlta,
+                                                                FechaBaja = u.FechaBaja,
+                                                                FechaModificacion = u.FechaModificacion,
+                                                                Email = u.Email,
                                                                 Empresas = (from e in u.Empresas
                                                                             select new WebService.Entities.Empresa
                                                                             {
@@ -54,6 +61,29 @@ namespace Gse.Usuarios.ServicioWeb
                                                             })
                                                             .ToList();
             return lstResult;
+        }
+
+        private byte[] createPass(int length) {
+            byte[] array = new byte[length];
+            Random random = new Random();
+            random.NextBytes(array);
+            return array;
+        }
+        public void AddUsuario(WebService.Entities.Usuario usuario) {
+            _usuarioRepository.Add(new WebService.Data.Usuario() {
+                Id = usuario.Id,
+                Nombre = usuario.Nombre,
+                NombreUsuario = usuario.NombreUsuario,
+                Apellidos = usuario.Apellidos,
+                Contrasenya = usuario.Contrasenya,
+                Email = usuario.Email,
+                Empresas = null,
+                FechaAlta = usuario.FechaAlta,
+                FechaModificacion = usuario.FechaModificacion,
+                FechaNacimiento = usuario.FechaNacimiento,
+                FechaBaja = null
+            });
+            _usuarioRepository.Save();
         }
     }
 }
