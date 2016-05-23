@@ -32,10 +32,45 @@ namespace Gse.Usuarios.ServicioWeb
             };
             return result;
         }
+        public void DeleteUsuario(Guid Id) {
+            _usuarioRepository.Delete(Id);
+            _usuarioRepository.Save();
+        }
         public IList<WebService.Entities.Usuario> GetAllUsuario()
         {
             IList<WebService.Entities.Usuario> lstResult = (from u in _usuarioRepository.GetAll()
                                                             orderby u.FechaAlta descending
+                                                            select new WebService.Entities.Usuario
+                                                            {
+                                                                Id = u.Id,
+                                                                Nombre = u.Nombre,
+                                                                NombreUsuario = u.NombreUsuario,
+                                                                Apellidos = u.Apellidos,
+                                                                FechaNacimiento = u.FechaNacimiento,
+                                                                FechaAlta = u.FechaAlta,
+                                                                FechaBaja = u.FechaBaja,
+                                                                FechaModificacion = u.FechaModificacion,
+                                                                Email = u.Email,
+                                                                Empresas = (from e in u.Empresas
+                                                                            select new WebService.Entities.Empresa
+                                                                            {
+                                                                                Id = e.Id,
+                                                                                UsuarioId = e.UsuarioId,
+                                                                                Cif = e.Cif,
+                                                                                Nombre = e.Nombre,
+                                                                                FechaAlta = e.FechaAlta,
+                                                                                FechaBaja = e.FechaBaja,
+                                                                                FechaModificacion = e.FechaModificacion
+                                                                            }).ToList()
+                                                            })
+                                                            .ToList();
+            return lstResult;
+        }
+
+        public IList<WebService.Entities.Usuario> GetAllUsuarioByNombreUsuario(string nombreUsuario) {
+            IList<WebService.Entities.Usuario> lstResult = (from u in _usuarioRepository.GetAll()
+                                                            orderby u.FechaAlta descending
+                                                            where u.NombreUsuario == nombreUsuario
                                                             select new WebService.Entities.Usuario
                                                             {
                                                                 Id = u.Id,

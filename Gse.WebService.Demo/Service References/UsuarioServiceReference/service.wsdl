@@ -25,6 +25,18 @@
   <wsdl:message name="IUsuariosService_AddUsuario_OutputMessage">
     <wsdl:part name="parameters" element="tns:AddUsuarioResponse" />
   </wsdl:message>
+  <wsdl:message name="IUsuariosService_GetAllUsuarioByNombreUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllUsuarioByNombreUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IUsuariosService_GetAllUsuarioByNombreUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllUsuarioByNombreUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUsuariosService_DeleteUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IUsuariosService_DeleteUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUsuarioResponse" />
+  </wsdl:message>
   <wsdl:portType name="IUsuariosService">
     <wsdl:operation name="GetAllUsuario">
       <wsdl:input wsaw:Action="http://tempuri.org/IUsuariosService/GetAllUsuario" message="tns:IUsuariosService_GetAllUsuario_InputMessage" />
@@ -37,6 +49,14 @@
     <wsdl:operation name="AddUsuario">
       <wsdl:input wsaw:Action="http://tempuri.org/IUsuariosService/AddUsuario" message="tns:IUsuariosService_AddUsuario_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IUsuariosService/AddUsuarioResponse" message="tns:IUsuariosService_AddUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllUsuarioByNombreUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUsuariosService/GetAllUsuarioByNombreUsuario" message="tns:IUsuariosService_GetAllUsuarioByNombreUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUsuariosService/GetAllUsuarioByNombreUsuarioResponse" message="tns:IUsuariosService_GetAllUsuarioByNombreUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUsuariosService/DeleteUsuario" message="tns:IUsuariosService_DeleteUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUsuariosService/DeleteUsuarioResponse" message="tns:IUsuariosService_DeleteUsuario_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IUsuariosService" type="tns:IUsuariosService">
@@ -61,6 +81,24 @@
     </wsdl:operation>
     <wsdl:operation name="AddUsuario">
       <soap:operation soapAction="http://tempuri.org/IUsuariosService/AddUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllUsuarioByNombreUsuario">
+      <soap:operation soapAction="http://tempuri.org/IUsuariosService/GetAllUsuarioByNombreUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUsuario">
+      <soap:operation soapAction="http://tempuri.org/IUsuariosService/DeleteUsuario" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

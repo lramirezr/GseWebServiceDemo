@@ -3,3 +3,8 @@ c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebS
 c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Entities\bin\Debug\Gse.WebService.Entities.pdb
 c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Entities\obj\Debug\Gse.WebService.Entities.dll
 c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Entities\obj\Debug\Gse.WebService.Entities.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Entities\bin\Debug\Gse.WebService.Entities.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Entities\bin\Debug\Gse.WebService.Entities.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Entities\obj\Debug\Gse.WebService.Entities.csprojResolveAssemblyReference.cache
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Entities\obj\Debug\Gse.WebService.Entities.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Entities\obj\Debug\Gse.WebService.Entities.pdb

@@ -18,5 +18,11 @@ namespace Gse.Usuarios.ServicioWeb
 
         [OperationContract]
         void AddUsuario(Usuario usuario);
+
+        [OperationContract]
+        IList<Usuario> GetAllUsuarioByNombreUsuario(string nombreUsuario);
+
+        [OperationContract]
+        void DeleteUsuario(Guid Id);
     }
 }

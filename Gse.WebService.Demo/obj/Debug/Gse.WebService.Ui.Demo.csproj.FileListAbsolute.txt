@@ -81,6 +81,5 @@ C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebSe
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\es\System.Web.Optimization.resources.dll
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\obj\Debug\Gse.WebService.Ui.Demo.csprojResolveAssemblyReference.cache
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\obj\Debug\Gse.WebService.Demo.dll
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\obj\Debug\Gse.WebService.Demo.pdb

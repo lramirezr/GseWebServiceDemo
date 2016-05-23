@@ -32,6 +32,18 @@ namespace Gse.WebService.Demo.UsuarioServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuariosService/AddUsuario", ReplyAction="http://tempuri.org/IUsuariosService/AddUsuarioResponse")]
         System.Threading.Tasks.Task AddUsuarioAsync(Gse.WebService.Entities.Usuario usuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuariosService/GetAllUsuarioByNombreUsuario", ReplyAction="http://tempuri.org/IUsuariosService/GetAllUsuarioByNombreUsuarioResponse")]
+        Gse.WebService.Entities.Usuario[] GetAllUsuarioByNombreUsuario(string nombreUsuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuariosService/GetAllUsuarioByNombreUsuario", ReplyAction="http://tempuri.org/IUsuariosService/GetAllUsuarioByNombreUsuarioResponse")]
+        System.Threading.Tasks.Task<Gse.WebService.Entities.Usuario[]> GetAllUsuarioByNombreUsuarioAsync(string nombreUsuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuariosService/DeleteUsuario", ReplyAction="http://tempuri.org/IUsuariosService/DeleteUsuarioResponse")]
+        void DeleteUsuario(System.Guid Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuariosService/DeleteUsuario", ReplyAction="http://tempuri.org/IUsuariosService/DeleteUsuarioResponse")]
+        System.Threading.Tasks.Task DeleteUsuarioAsync(System.Guid Id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -83,6 +95,22 @@ namespace Gse.WebService.Demo.UsuarioServiceReference {
         
         public System.Threading.Tasks.Task AddUsuarioAsync(Gse.WebService.Entities.Usuario usuario) {
             return base.Channel.AddUsuarioAsync(usuario);
+        }
+        
+        public Gse.WebService.Entities.Usuario[] GetAllUsuarioByNombreUsuario(string nombreUsuario) {
+            return base.Channel.GetAllUsuarioByNombreUsuario(nombreUsuario);
+        }
+        
+        public System.Threading.Tasks.Task<Gse.WebService.Entities.Usuario[]> GetAllUsuarioByNombreUsuarioAsync(string nombreUsuario) {
+            return base.Channel.GetAllUsuarioByNombreUsuarioAsync(nombreUsuario);
+        }
+        
+        public void DeleteUsuario(System.Guid Id) {
+            base.Channel.DeleteUsuario(Id);
+        }
+        
+        public System.Threading.Tasks.Task DeleteUsuarioAsync(System.Guid Id) {
+            return base.Channel.DeleteUsuarioAsync(Id);
         }
     }
 }
