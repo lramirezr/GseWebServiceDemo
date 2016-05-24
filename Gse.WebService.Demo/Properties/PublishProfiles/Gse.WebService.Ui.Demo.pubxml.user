@@ -37,7 +37,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>05/24/2016 13:31:45</publishTime>
     </File>
     <File Include="bin/Gse.WebService.Demo.dll">
-      <publishTime>05/24/2016 13:31:53</publishTime>
+      <publishTime>05/24/2016 13:57:56</publishTime>
     </File>
     <File Include="bin/Gse.WebService.Entities.dll">
       <publishTime>05/24/2016 09:02:54</publishTime>

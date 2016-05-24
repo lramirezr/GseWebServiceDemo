@@ -12,8 +12,10 @@ namespace Gse.WebService.Ui.Demo
 {
     public partial class _Default : Page
     {
+        // Servicio web de Usuarios
         private Gse.WebService.Demo.UsuarioServiceReference.UsuariosServiceClient _usuarioService;
 
+        #region Propiedades
         private List<Usuario> _usuarios;
         public List<Usuario> Usuarios
         {
@@ -22,11 +24,15 @@ namespace Gse.WebService.Ui.Demo
               return _usuarios ?? new List<Usuario>();
             }
         }
+        #endregion
+
+        #region Constructor
         public _Default()
         {
             _usuarioService = new Gse.WebService.Demo.UsuarioServiceReference.UsuariosServiceClient();
             _usuarios = null;
         }
+        #endregion
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -36,6 +42,7 @@ namespace Gse.WebService.Ui.Demo
             }
         }
 
+        #region Btn_Anadir_1_Usuario
         protected void Button1_Click(object sender, EventArgs e)
         {
             Usuario usu = new Usuario
@@ -63,14 +70,9 @@ namespace Gse.WebService.Ui.Demo
 
             refreshGridView();
         }
+        #endregion
 
-        protected void GridView1_PageIndexChanging(object sender, GridViewPageEventArgs e)
-        {
-            GridView1.PageIndex = e.NewPageIndex;
-
-            refreshGridView();
-        }
-
+        #region Btn_Anadir_100_Usuarios
         protected void Button4_Click(object sender, EventArgs e)
         {
             CultureInfo ci = CultureInfo.InvariantCulture;
@@ -103,13 +105,17 @@ namespace Gse.WebService.Ui.Demo
 
             refreshGridView();
         }
+        #endregion
 
-        private string nombreUsuarioToDelete = "mropru"; // "Gse-lUis";
+        #region Btn_Borrar_Usuarios_Por_NombreUsuario
+        // private string nombreUsuarioToDelete = "mropru"; // "Gse-lUis";
+        private string nombreUsuarioToDelete;
         protected void Button1_Click1(object sender, EventArgs e)
         {
             try
             {
-                
+                lblMsgError.Text = string.Empty;
+
                 if (!string.IsNullOrEmpty(DropDownList1.SelectedValue))
                 {
                     nombreUsuarioToDelete = DropDownList1.SelectedValue;
@@ -120,7 +126,7 @@ namespace Gse.WebService.Ui.Demo
                     }
 
                     lblMsgError.Text = (_usuarios.Count > 0) ?
-                                        "Los usuarios creados fueron correctamente borrados."
+                                        string.Format("Los usuarios - {0} - creados fueron correctamente borrados.", nombreUsuarioToDelete)
                                         : string.Format("No existen usuarios con NombreUsuario: {0}", nombreUsuarioToDelete);
                     lblMsgError.Font.Bold = true;
                 }
@@ -135,28 +141,9 @@ namespace Gse.WebService.Ui.Demo
                 lblMsgError.ForeColor = System.Drawing.Color.White;
             }
         }
+        #endregion
 
-        protected void LinkButton1_Click(object sender, EventArgs e)
-        {
-            Panel1.Visible = false;
-        }
-
-        protected void GridView2_PageIndexChanging(object sender, GridViewPageEventArgs e)
-        {
-            GridView2.PageIndex = e.NewPageIndex;
-
-            GridView2.DataSource = _usuarioService.GetAllUsuarioByNombreUsuario("Gse-lUis").ToList();
-            GridView2.DataBind();
-        }
-
-        private void refreshGridView() {
-
-            _usuarios = _usuarioService.GetAllUsuario().ToList();
-            Label7.Text = _usuarios.Count.ToString();
-            GridView1.DataSource = _usuarios;
-            GridView1.DataBind();
-        }
-
+        #region Btn_Cargar_Grid_Usuarios
         protected void Button2_Click(object sender, EventArgs e)
         {
             CultureInfo ci = CultureInfo.InvariantCulture;
@@ -170,5 +157,37 @@ namespace Gse.WebService.Ui.Demo
             Label9.Text = dtFin.ToString("hh:mm:ss.FFF", ci);
             Label10.Text = dtFin.Subtract(dtIni).ToString();
         }
+        #endregion
+
+        private void refreshGridView()
+        {
+
+            _usuarios = _usuarioService.GetAllUsuario().ToList();
+            Label7.Text = _usuarios.Count.ToString();
+            GridView1.DataSource = _usuarios;
+            GridView1.DataBind();
+        }
+
+        protected void GridView1_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            GridView1.PageIndex = e.NewPageIndex;
+
+            refreshGridView();
+        }
+
+        #region old_code
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Panel1.Visible = false;
+        }
+
+        protected void GridView2_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            GridView2.PageIndex = e.NewPageIndex;
+
+            GridView2.DataSource = _usuarioService.GetAllUsuarioByNombreUsuario("Gse-lUis").ToList();
+            GridView2.DataBind();
+        }
+        #endregion
     }
 }
