@@ -6,7 +6,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>\\DESARROLLO\Comun\LUIS\Gse.WebService.Ui.Demo</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\luis\Documents\UsuariosASPNet</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="About.aspx">
@@ -33,11 +33,14 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <File Include="bin/es/System.Web.Optimization.resources.dll">
       <publishTime>02/11/2014 15:28:40</publishTime>
     </File>
+    <File Include="bin/Gse.WebService.Data.dll">
+      <publishTime>05/24/2016 13:31:45</publishTime>
+    </File>
     <File Include="bin/Gse.WebService.Demo.dll">
-      <publishTime>05/23/2016 18:30:17</publishTime>
+      <publishTime>05/24/2016 13:31:53</publishTime>
     </File>
     <File Include="bin/Gse.WebService.Entities.dll">
-      <publishTime>05/23/2016 18:07:09</publishTime>
+      <publishTime>05/24/2016 09:02:54</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
       <publishTime>07/30/2013 16:57:30</publishTime>
@@ -118,7 +121,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>05/19/2016 17:34:47</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>05/23/2016 17:52:47</publishTime>
+      <publishTime>05/24/2016 13:19:26</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>05/19/2016 17:34:47</publishTime>
@@ -238,7 +241,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>05/19/2016 17:34:53</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>05/23/2016 16:04:17</publishTime>
+      <publishTime>05/24/2016 13:05:56</publishTime>
     </File>
     <File Include="Site.Mobile.Master">
       <publishTime>05/20/2016 08:56:16</publishTime>
@@ -247,7 +250,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>05/20/2016 08:56:26</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/23/2016 18:30:18</publishTime>
+      <publishTime>05/24/2016 13:32:10</publishTime>
     </File>
   </ItemGroup>
 </Project>

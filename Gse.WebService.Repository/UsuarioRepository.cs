@@ -13,6 +13,8 @@ namespace Gse.WebService.Repository
         public UsuarioRepository(DbContext db)
         {
             _dbContext = db;
+            // _dbContext.Configuration.LazyLoadingEnabled = false;
+            _dbContext.Configuration.ProxyCreationEnabled = false;
         }
 
         public void Add(Usuario usuario)
@@ -34,6 +36,7 @@ namespace Gse.WebService.Repository
         public IEnumerable<Usuario> GetAll()
         {
            return _dbContext.Set<Usuario>()
+                .Include("Empresas")
                 .AsNoTracking()
                 .ToList();
         }

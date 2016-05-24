@@ -1,5 +1,5 @@
 ﻿using System.ServiceModel;
-using Gse.WebService.Entities;
+using Gse.WebService.Data;
 using System.Collections.Generic;
 using System;
 
@@ -11,15 +11,18 @@ namespace Gse.Usuarios.ServicioWeb
     {
         // TODO: agregue aquí sus operaciones de servicio
         [OperationContract]
+        [ApplyDataContractResolver]
         IList<Usuario> GetAllUsuario();
 
         [OperationContract]
+        [ApplyDataContractResolver]
         Usuario GetUsuario(Guid Id);
 
         [OperationContract]
         void AddUsuario(Usuario usuario);
 
         [OperationContract]
+        [ApplyDataContractResolver]
         IList<Usuario> GetAllUsuarioByNombreUsuario(string nombreUsuario);
 
         [OperationContract]

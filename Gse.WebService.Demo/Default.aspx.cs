@@ -1,4 +1,4 @@
-﻿using Gse.WebService.Entities;
+﻿using Gse.WebService.Data;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -109,21 +109,30 @@ namespace Gse.WebService.Ui.Demo
         {
             try
             {
-                _usuarios = _usuarioService.GetAllUsuarioByNombreUsuario(nombreUsuarioToDelete).ToList();
-                foreach (Usuario usuario in _usuarios)
+                
+                if (!string.IsNullOrEmpty(DropDownList1.SelectedValue))
                 {
-                    _usuarioService.DeleteUsuario(usuario.Id);
-                }
+                    nombreUsuarioToDelete = DropDownList1.SelectedValue;
+                    _usuarios = _usuarioService.GetAllUsuarioByNombreUsuario(nombreUsuarioToDelete).ToList();
+                    foreach (Usuario usuario in _usuarios)
+                    {
+                        _usuarioService.DeleteUsuario(usuario.Id);
+                    }
 
-                lblMsgError.Text = (_usuarios.Count > 0) ? 
-                                    "Los usuarios creados fueron correctamente borrados." 
-                                    : string.Format("No existen usuarios con NombreUsuario: {0}", nombreUsuarioToDelete);
-                lblMsgError.Font.Bold = true;
+                    lblMsgError.Text = (_usuarios.Count > 0) ?
+                                        "Los usuarios creados fueron correctamente borrados."
+                                        : string.Format("No existen usuarios con NombreUsuario: {0}", nombreUsuarioToDelete);
+                    lblMsgError.Font.Bold = true;
+                }
+                else {
+                    throw new Exception("Selecciona un elemento para eliminar");
+                }
             }
             catch (Exception ex)
             {
                 lblMsgError.Text = ex.Message;
                 lblMsgError.BackColor = System.Drawing.Color.Red;
+                lblMsgError.ForeColor = System.Drawing.Color.White;
             }
         }
 

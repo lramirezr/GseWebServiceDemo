@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fdbdc844-9661-4685-8b39-ebfdd2d0270b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dc6f8f2c-aed9-4fae-a51e-90646fad7027" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,13 +19,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/Gse.Usuarios.ServicioWeb/UsuarioService/mex" Protocol="mex" SourceId="1" />
+    <MetadataSource Address="http://wspruebaluis.es:8080/Gse.Usuarios.ServicioWeb.UsuarioService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="9f4809b8-7ab4-494e-8f67-8b250b7dd99a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Gse.Usuarios.ServicioWeb/UsuarioService/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="545cc0cd-81e5-44f0-8abd-21c784b1267e" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Gse.Usuarios.ServicioWeb/UsuarioService/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="5ee8f2d2-0403-4390-9da7-cea8b54f9e93" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Gse.Usuarios.ServicioWeb/UsuarioService/mex" />
-    <MetadataFile FileName="Gse.WebService.Entities.xsd" MetadataType="Schema" ID="efd2b55a-3ccc-4bca-a7ba-18f689da800a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Gse.Usuarios.ServicioWeb/UsuarioService/mex" />
+    <MetadataFile FileName="Gse.xsd" MetadataType="Schema" ID="9dedbfa0-a326-4d0b-8bd4-43c2b0eb697c" SourceId="1" SourceUrl="http://wspruebaluis.es:8080/Gse.Usuarios.ServicioWeb.UsuarioService.svc?xsd=xsd2" />
+    <MetadataFile FileName="UsuarioService.wsdl" MetadataType="Wsdl" ID="21d34e63-b77d-43c6-9b94-aa5aac8cf064" SourceId="1" SourceUrl="http://wspruebaluis.es:8080/Gse.Usuarios.ServicioWeb.UsuarioService.svc?wsdl" />
+    <MetadataFile FileName="Gse1.xsd" MetadataType="Schema" ID="a1cdd57a-71fb-4a1a-9324-b7db97f60f4c" SourceId="1" SourceUrl="http://wspruebaluis.es:8080/Gse.Usuarios.ServicioWeb.UsuarioService.svc?xsd=xsd0" />
+    <MetadataFile FileName="Gse.disco" MetadataType="Disco" ID="d7b55242-a6cf-4526-97e5-f2cf0ad3860c" SourceId="1" SourceUrl="http://wspruebaluis.es:8080/Gse.Usuarios.ServicioWeb.UsuarioService.svc?disco" />
+    <MetadataFile FileName="Gse2.xsd" MetadataType="Schema" ID="b630936e-e59a-4e93-88bc-aeb18619e9dc" SourceId="1" SourceUrl="http://wspruebaluis.es:8080/Gse.Usuarios.ServicioWeb.UsuarioService.svc?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

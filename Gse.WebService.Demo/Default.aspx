@@ -5,12 +5,16 @@
     <div class="jumbotron">
         <%--<h1>WebService Demo</h1>
         <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>--%>
+        <asp:Label ID="lblMsgError" runat="server" Text="" Font-Italic="True" Font-Size="Medium"></asp:Label>
     </div>
-    <asp:Label ID="lblMsgError" runat="server" Text="Msg" Font-Italic="True" Font-Size="Medium"></asp:Label>
+    Nombre de usuario añadidos:
+    <asp:DropDownList ID="DropDownList1" runat="server">
+        <asp:ListItem Selected="True" Text="-- selecciona --" Value="">-- selecciona --</asp:ListItem>
+        <asp:ListItem Text="mropru" Value="mropru">mropru</asp:ListItem>
+        <asp:ListItem Text="Gse-lUis" Value="Gse-lUis">Gse-lUis</asp:ListItem>
+    </asp:DropDownList>
+    <asp:Button ID="Button1" runat="server" Text="Borrar usuarios" OnClick="Button1_Click1" />
     <hr />
-    <asp:Button ID="Button1" runat="server" Text="Borrar usuarios añadidos" OnClick="Button1_Click1" />
-    <br />
-    <br />
     <div class="row">
         <div class="col-md-4">
             <asp:Button ID="Button3" runat="server" Text="Añadir 1 usuario" OnClick="Button1_Click" />
@@ -19,7 +23,7 @@
             <asp:Button ID="Button4" runat="server" Text="Añadir 100 usuarios" OnClick="Button4_Click" />
         </div>
         <div class="col-md-4">
-            <asp:Button ID="Button2" runat="server" Text="Cargar grid" OnClick="Button2_Click" />
+            <asp:Button ID="Button2" runat="server" Text="Cargar grid usuarios" OnClick="Button2_Click" />
             Count de registros <asp:Label ID="Label7" runat="server" Text="0" Font-Bold="True"></asp:Label>
         </div>
     </div>

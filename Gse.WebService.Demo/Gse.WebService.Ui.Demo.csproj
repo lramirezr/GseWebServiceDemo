@@ -162,6 +162,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <None Include="Service References\UsuarioServiceReference\Gse.disco" />
     <None Include="Service References\UsuarioServiceReference\configuration91.svcinfo" />
     <None Include="Service References\UsuarioServiceReference\configuration.svcinfo" />
     <None Include="Service References\UsuarioServiceReference\Reference.svcmap">
@@ -176,16 +177,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
-    <None Include="Service References\UsuarioServiceReference\Gse.WebService.Entities.xsd">
+    <None Include="Service References\UsuarioServiceReference\Gse.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\UsuarioServiceReference\service.wsdl" />
-    <None Include="Service References\UsuarioServiceReference\service.xsd">
+    <None Include="Service References\UsuarioServiceReference\Gse1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\UsuarioServiceReference\service1.xsd">
+    <None Include="Service References\UsuarioServiceReference\Gse2.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\UsuarioServiceReference\UsuarioService.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -252,9 +253,9 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Gse.WebService.Entities\Gse.WebService.Entities.csproj">
-      <Project>{8d6bcde2-83c4-4a20-88cc-696d82fbb7bc}</Project>
-      <Name>Gse.WebService.Entities</Name>
+    <ProjectReference Include="..\Gse.WebService.Data\Gse.WebService.Data.csproj">
+      <Project>{1ef14ea9-c5a3-413c-b880-92901611a816}</Project>
+      <Name>Gse.WebService.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
