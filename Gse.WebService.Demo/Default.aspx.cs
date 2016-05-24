@@ -76,7 +76,6 @@ namespace Gse.WebService.Ui.Demo
         protected void Button4_Click(object sender, EventArgs e)
         {
             CultureInfo ci = CultureInfo.InvariantCulture;
-
             DateTime dtIni = DateTime.Now;
             Label3.Text = dtIni.ToString("hh:mm:ss.FFF", ci);
 

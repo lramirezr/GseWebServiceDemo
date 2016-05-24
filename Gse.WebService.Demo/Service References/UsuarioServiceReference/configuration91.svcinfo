@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="MMB8UQRiuPFB43WRZ+hMy0Mt7UM=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="A1HVxh3G6VSXporlp1s8HRIdAms=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IUsuariosService">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IUsuariosService" contract="UsuarioServiceReference.IUsuariosService" bindingType="basicHttpBinding" address="http://wspruebaluis.es:8080/Gse.Usuarios.ServicioWeb.UsuarioService.svc" bindingConfiguration="BasicHttpBinding_IUsuariosService">
+    <endpoint name="BasicHttpBinding_IUsuariosService" contract="UsuarioServiceReference.IUsuariosService" bindingType="basicHttpBinding" address="http://localhost:8733/Design_Time_Addresses/Gse.Usuarios.ServicioWeb/UsuarioService/" bindingConfiguration="BasicHttpBinding_IUsuariosService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://wspruebaluis.es:8080/Gse.Usuarios.ServicioWeb.UsuarioService.svc</serializedValue>
+          <serializedValue>http://localhost:8733/Design_Time_Addresses/Gse.Usuarios.ServicioWeb/UsuarioService/</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

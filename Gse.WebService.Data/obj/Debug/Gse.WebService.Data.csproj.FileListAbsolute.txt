@@ -15,6 +15,7 @@ C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebSe
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Data\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Data\bin\Debug\EntityFramework.xml
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Data\obj\Debug\Gse.WebService.Data.csprojResolveAssemblyReference.cache
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Data\obj\Debug\Gse.WebService.Data.Migrations.InitialCreate.resources
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Data\obj\Debug\Gse.WebService.Data.Migrations.Initial.resources
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Data\obj\Debug\Gse.WebService.Data.csproj.GenerateResource.Cache

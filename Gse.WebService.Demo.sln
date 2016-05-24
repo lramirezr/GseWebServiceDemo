@@ -5,6 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.WebService.Ui.Demo", "Gse.WebService.Demo\Gse.WebService.Ui.Demo.csproj", "{DE193638-2A30-4341-B7C1-16C1E4C55099}"
 	ProjectSection(ProjectDependencies) = postProject
+		{5FB1A88F-0906-4976-8E71-205316ABCC02} = {5FB1A88F-0906-4976-8E71-205316ABCC02}
 		{2D2BA0F1-79B7-4BAD-8481-5C5ED1CA4545} = {2D2BA0F1-79B7-4BAD-8481-5C5ED1CA4545}
 	EndProjectSection
 EndProject
@@ -15,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Usuarios.ServicioWeb", "Gse.Usuarios.ServicioWeb\Gse.Usuarios.ServicioWeb.csproj", "{2D2BA0F1-79B7-4BAD-8481-5C5ED1CA4545}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.WebService.Entities", "Gse.WebService.Entities\Gse.WebService.Entities.csproj", "{8D6BCDE2-83C4-4A20-88CC-696D82FBB7BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Empresas.ServicioWeb", "Gse.Empresas.ServicioWeb\Gse.Empresas.ServicioWeb.csproj", "{5FB1A88F-0906-4976-8E71-205316ABCC02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +45,10 @@ Global
 		{8D6BCDE2-83C4-4A20-88CC-696D82FBB7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D6BCDE2-83C4-4A20-88CC-696D82FBB7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D6BCDE2-83C4-4A20-88CC-696D82FBB7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB1A88F-0906-4976-8E71-205316ABCC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB1A88F-0906-4976-8E71-205316ABCC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB1A88F-0906-4976-8E71-205316ABCC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB1A88F-0906-4976-8E71-205316ABCC02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

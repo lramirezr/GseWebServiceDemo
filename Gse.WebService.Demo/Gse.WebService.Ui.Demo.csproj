@@ -115,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="DTOs\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
@@ -122,12 +123,14 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Empresas.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Properties\DataSources\Gse.WebService.Data.Usuario.datasource" />
     <Content Include="Properties\DataSources\Gse.WebService.Entities.Usuario.datasource" />
+    <Content Include="Properties\DataSources\Gse.WebService.Entities.EmpresaData.datasource" />
     <None Include="Properties\PublishProfiles\Gse.WebService.Ui.Demo.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -162,10 +165,25 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <None Include="Service References\UsuarioServiceReference\Gse.disco" />
+    <None Include="Service References\EmpresaServiceReference\Gse.WebService.Entities.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EmpresaServiceReference\service.wsdl" />
+    <None Include="Service References\EmpresaServiceReference\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EmpresaServiceReference\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\UsuarioServiceReference\configuration91.svcinfo" />
     <None Include="Service References\UsuarioServiceReference\configuration.svcinfo" />
     <None Include="Service References\UsuarioServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\EmpresaServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\EmpresaServiceReference\configuration.svcinfo" />
+    <None Include="Service References\EmpresaServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -177,16 +195,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
-    <None Include="Service References\UsuarioServiceReference\Gse.xsd">
+    <None Include="Service References\UsuarioServiceReference\Gse.WebService.Data.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\UsuarioServiceReference\Gse1.xsd">
+    <None Include="Service References\UsuarioServiceReference\service.wsdl" />
+    <None Include="Service References\UsuarioServiceReference\service.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\UsuarioServiceReference\Gse2.xsd">
+    <None Include="Service References\UsuarioServiceReference\service1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\UsuarioServiceReference\UsuarioService.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -218,10 +236,22 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Empresas.aspx.cs">
+      <DependentUpon>Empresas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empresas.aspx.designer.cs">
+      <DependentUpon>Empresas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\EmpresaServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\UsuarioServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -257,8 +287,13 @@
       <Project>{1ef14ea9-c5a3-413c-b880-92901611a816}</Project>
       <Name>Gse.WebService.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Gse.WebService.Entities\Gse.WebService.Entities.csproj">
+      <Project>{8d6bcde2-83c4-4a20-88cc-696d82fbb7bc}</Project>
+      <Name>Gse.WebService.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\EmpresaServiceReference\" />
     <WCFMetadataStorage Include="Service References\UsuarioServiceReference\" />
   </ItemGroup>
   <PropertyGroup>

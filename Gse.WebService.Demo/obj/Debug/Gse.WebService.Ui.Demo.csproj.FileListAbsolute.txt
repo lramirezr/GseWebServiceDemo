@@ -42,9 +42,9 @@ c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebS
 c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Demo\bin\Gse.WebService.Entities.dll
 c:\users\luis\documents\visual studio 2015\Projects\Gse.WebService.Demo\Gse.WebService.Demo\bin\Gse.WebService.Entities.pdb
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\roslyn\csc.exe
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
@@ -84,3 +84,5 @@ C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebSe
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\obj\Debug\Gse.WebService.Ui.Demo.csprojResolveAssemblyReference.cache
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\obj\Debug\Gse.WebService.Demo.dll
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\obj\Debug\Gse.WebService.Demo.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\Gse.WebService.Entities.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.WebService.Demo\bin\Gse.WebService.Entities.pdb
