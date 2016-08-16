@@ -1,0 +1,14 @@
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\Gse.Usuarios.ServicioWeb.dll.config
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\Gse.Usuarios.ServicioWeb.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\Gse.Usuarios.ServicioWeb.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\EntityFramework.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\Gse.WebService.Data.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\Gse.WebService.Repository.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\Gse.WebService.Data.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\Gse.WebService.Repository.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\EntityFramework.xml
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\obj\Release\Gse.Usuarios.ServicioWeb.csprojResolveAssemblyReference.cache
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\obj\Release\Gse.Usuarios.ServicioWeb.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Usuarios.ServicioWeb\obj\Release\Gse.Usuarios.ServicioWeb.pdb

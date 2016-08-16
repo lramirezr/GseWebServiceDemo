@@ -1,0 +1,16 @@
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\Gse.Empresas.ServicioWeb.dll.config
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\Gse.Empresas.ServicioWeb.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\Gse.Empresas.ServicioWeb.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\EntityFramework.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\Gse.WebService.Data.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\Gse.WebService.Entities.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\Gse.WebService.Repository.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\Gse.WebService.Data.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\Gse.WebService.Entities.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\Gse.WebService.Repository.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\EntityFramework.xml
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\obj\Debug\Gse.Empresas.ServicioWeb.csprojResolveAssemblyReference.cache
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\obj\Debug\Gse.Empresas.ServicioWeb.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.WebService.Demo\GseWebServiceDemo\Gse.Empresas.ServicioWeb\obj\Debug\Gse.Empresas.ServicioWeb.pdb
